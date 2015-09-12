@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_partner_invoice_method
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-12 15:48+0200\n"
+"PO-Revision-Date: 2015-09-12 15:56+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.3\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
+"Language: de\n"
+
+#. module: purchase_partner_invoice_method
+#: selection:res.partner,supplier_invoice_method:0
+msgid "Based on Purchase Order lines"
+msgstr "Aus Bestellpositionen abgeleitet"
+
+#. module: purchase_partner_invoice_method
+#: selection:res.partner,supplier_invoice_method:0
+msgid "Based on generated draft invoice"
+msgstr "Aus erstelltem Rechnungsentwurf "
+
+#. module: purchase_partner_invoice_method
+#: selection:res.partner,supplier_invoice_method:0
+msgid "Based on incoming shipments"
+msgstr "Aus Liefereingängen"
+
+#. module: purchase_partner_invoice_method
+#: model:ir.model,name:purchase_partner_invoice_method.model_res_partner
+msgid "Partner"
+msgstr "Partner"
+
+#. module: purchase_partner_invoice_method
+#: model:ir.model,name:purchase_partner_invoice_method.model_purchase_order
+msgid "Purchase Order"
+msgstr "Bestellauftrag"
+
+#. module: purchase_partner_invoice_method
+#: help:res.partner,supplier_invoice_method:0
+msgid "Select the default invoicing control for the purchase orders of this supplier"
+msgstr "Wählen Sie das Vorgabe-Rechnungssteuerung mit diesem Lieferanten"
+
+#. module: purchase_partner_invoice_method
+#: field:res.partner,supplier_invoice_method:0
+msgid "Supplier Invoicing Control"
+msgstr "Lieferanten-Rechnungssteuerung"
